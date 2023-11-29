@@ -1,8 +1,11 @@
 import './App.scss';
+import Container from './components/Container';
 
 function App() {
   return (
-    <div className="App"></div>
+    <div className="App">
+      <Container/>
+    </div>
   );
 }
 
